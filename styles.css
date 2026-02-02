@@ -1,0 +1,50 @@
+body {
+  font-family: Chalkduster, fantasy;
+  background: linear-gradient(to right, #f0eaf4, #e0acf8);
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#pet {
+  width: 150px;
+  height: 150px;
+  margin: 20px auto;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/616/616408.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Pet moods */
+.happy {
+  background-color: #efe89a;
+}
+.hungry {
+  background-color: #c42f45;
+}
+.tired {
+  background-color: #005aea;
+}
+
+.status {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.controls button {
+  margin: 10px;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+}
+.controls button:hover {
+  opacity: 0.85;   
+}
